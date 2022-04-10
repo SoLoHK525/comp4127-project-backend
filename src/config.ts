@@ -1,0 +1,1 @@
+export const EncryptSecret = "u0pFAPbRVieimHJDG15b5bUKH7sE/wQp";
