@@ -27,6 +27,7 @@
     "@nestjs/passport": "^8.2.1",
     "@nestjs/platform-express": "^8.0.0",
     "@nestjs/schedule": "^1.1.0",
+    "@nestjs/serve-static": "^2.2.2",
     "bcrpyt": "^2.0.0",
     "bcrypt": "^5.0.1",
     "crypto-js": "^4.1.1",

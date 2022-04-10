@@ -8,11 +8,6 @@ import { SecureRequestGuard } from './guards/SecureRequestGuard';
 export class AppController {
     constructor(private readonly appService: AppService) {}
 
-    @Get()
-    getHello(): string {
-        return this.appService.getHello();
-    }
-
     @UseGuards(SecureRequestGuard)
     @UseGuards(JwtAuthGuard)
     @Post('test')
